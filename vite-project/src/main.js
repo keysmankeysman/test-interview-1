@@ -9,9 +9,8 @@ import App from './App.vue'
 import router from './router'
 
 const vuetify = createVuetify({
-  // Ваши настройки, например, для иконок [2]
   icons: {
-    defaultSet: 'mdi', // или 'fa' для Font Awesome
+    defaultSet: 'mdi',
   },
 })
 

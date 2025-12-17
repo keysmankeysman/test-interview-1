@@ -1,6 +1,10 @@
 <template>
   <div class="about">
     <h1>This is an about page</h1>
+    <v-select
+      label="Выберите город"
+      :items="['Москва', 'Санкт-Петербург', 'Новосибирск']"
+    ></v-select>
   </div>
 </template>
 
