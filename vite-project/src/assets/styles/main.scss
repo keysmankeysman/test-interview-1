@@ -1,0 +1,15 @@
+@use 'abstracts/variables';
+@use 'sass:color';
+
+$blue: #3bbfce;
+$red: red;
+$margin: 16px;
+
+.header {
+  border-color: $blue;
+  color: color.adjust($red, $lightness: -9%);
+}
+
+body {
+  background-color: variables.$primary-color;
+}
