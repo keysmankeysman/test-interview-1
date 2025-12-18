@@ -5,6 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header class="header">
+    <h1 class="text-3xl font-bold underline">Hello world!</h1>
     <div class="class-div">
       <div class="inner-div"></div>
     </div>
