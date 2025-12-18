@@ -1,5 +1,6 @@
 @use 'abstracts/variables';
 @use 'sass:color';
+@use 'sass:map';
 
 $blue: #3bbfce;
 $red: red;
@@ -11,5 +12,5 @@ $margin: 16px;
 }
 
 body {
-  background-color: variables.$primary-color;
+  background-color: map.get(variables.$colors, 'primary-color');
 }
